@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  Pokemon: one
+  levelPokemon: 1
+
+two:
+  Pokemon: two
+  levelPokemon: 1
