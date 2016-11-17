@@ -1,4 +1,4 @@
 class Pokemon < ApplicationRecord
 	has_many :caughtups
-	has_many :user, through: :caughtups
+	has_many :users, through: :caughtups
 end

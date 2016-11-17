@@ -6,13 +6,15 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+Pokemon.destroy_all
+
 pokemons = Pokemon.create ([
 	{ 
 		name: 'Charmander',  
 		description: 'Fire' 
 	},
 	{ 	name: 'Metapod',
-		description: 'Fire' 
+		description: 'Air' 
 	},
 	{
 		name: 'Squirtle',
